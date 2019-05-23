@@ -1,0 +1,38 @@
+{
+    "name": "graduation-report",
+    "version": "0.0.1-alpha",
+    "license": "ISC",
+    "author": "Tim Vaneker - tim.vaneker@thelearningnetwork.nl",
+    "private": true,
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "type-check": "tsc",
+        "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+    },
+    "dependencies": {
+        "@emotion/core": "^10.0.10",
+        "@emotion/styled": "^10.0.11",
+        "@zeit/next-typescript": "^1.1.1",
+        "babel-plugin-emotion": "^10.0.9",
+        "next": "^8.1.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+        "@mdx-js/loader": "^1.0.19",
+        "@next/mdx": "^8.1.0",
+        "@types/next": "^8.0.5",
+        "@types/react": "^16.8.18",
+        "@types/react-dom": "^16.8.4",
+        "@typescript-eslint/eslint-plugin": "^1.9.0",
+        "@typescript-eslint/parser": "^1.9.0",
+        "eslint": "^5.16.0",
+        "eslint-config-prettier": "^4.3.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "eslint-plugin-react": "^7.13.0",
+        "prettier": "1.17.1",
+        "typescript": "^3.4.5"
+    }
+}
